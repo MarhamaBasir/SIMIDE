@@ -72,7 +72,7 @@ class Penduduk(db.Model):
 	tahun = db.Column(db.String(10), nullable=True)
 
 	def __repr__(self):
-		return f"Penduduk('{self.jumlah_l}','{self.jumlah_p}','{self.total}','{self.kk}')"
+		return f"Penduduk('{self.jumlah_l}','{self.jumlah_p}','{self.total}','{self.kk}','{self.tahun}')"
 
 class SaranaPenunjang(db.Model):
 	id = db.Column(db.Integer, primary_key=True)
